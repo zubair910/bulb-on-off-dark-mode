@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+body{
+    background-color: gray;
+}
+.BulbCon {
+   
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+
+.BulbCon section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    height: 70vh;
+    width: 40%;
+}
+
+button {
+   
+  
+    width: 200px;
+   
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #5F625A;
+    color: #5F625A;
+    background-color: #28B1F5;
+    font-weight: bolder;
+    transition: all 0.5s;
+}
+
+button:hover {
+    background-color: #5F625A;
+    color: white;
+}
+img{
+    width: 200px;
+    height: 300px;
+}
+
+
+.img1>img{
+    width: 40%;
+    height: 700px;
+    position: relative;
+    top: 200px;
+}
+
+@media screen and (max-width:768px) and (min-width:320px) {
+    .img1>img{
+        height: 400px;
+        width: 70%;
+        position: relative;
+        top: 100px;
+
+    }
+
+     button{
+         width: 80px;
+         font-size: 12px;
+     }
+
+     img{
+         width: 100px;
+         height: 200px;
+     }
+}
+
+
